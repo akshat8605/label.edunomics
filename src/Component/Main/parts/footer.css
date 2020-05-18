@@ -1,0 +1,26 @@
+.footer{
+    padding: 1em;
+    margin: 2rem auto 0;
+    background-color: #ebf0ed;
+    color:#6d6d6d;
+}
+.footer-details{
+    display: flex;
+    flex-direction: row;
+}
+.f{
+    width: 50%;
+}
+@media (max-width: 600px){
+.footer-details{
+    flex-direction: column;
+}
+.f{
+    width: 100%;
+}
+}
+.copyright{
+    font-size: 0.8em;
+    flex-basis: 100%;
+    text-align: center;
+}
